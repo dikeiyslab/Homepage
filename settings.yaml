@@ -1,0 +1,32 @@
+title: "Dikeiy's Lab"
+theme: dark
+
+background:
+  image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 # 0-100
+
+layout:
+  Quick-Links:
+    header: false
+    style: column
+  Quick-Access:
+    header: false
+    style: column
+  Calendar:
+    header: false
+    style: column
+  Hypervisor:
+    header: true
+    style: row
+    columns: 4
+  Containers:
+    header: true
+    style: row
+    columns: 4
+  DNS:
+    header: true
+    style: row
+    columns: 4
