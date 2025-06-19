@@ -1,0 +1,31 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/service-widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
+
+- openweathermap:
+    label: City, State #optional
+    latitude: "{{HOMEPAGE_VAR_WEATHER_LAT}}"
+    longitude: "{{HOMEPAGE_VAR_WEATHER_LONG}}"
+    units: metric # or imperial
+    provider: openweathermap
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    format: # optional, Intl.NumberFormat options
+      maximumFractionDigits: 1
+
+- weatherapi:
+    label: City, State #optional
+    latitude: "{{HOMEPAGE_VAR_WEATHER_LAT}}"
+    longitude: "{{HOMEPAGE_VAR_WEATHER_LONG}}"
+    provider: weatherapi
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    format: # optional, Intl.NumberFormat options
+      maximumFractionDigits: 1
