@@ -1,0 +1,56 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Quick-Links:
+    - LinuxServer:
+        - abbr: LS
+          href: https://docs.linuxserver.io/
+          icon: https://docs.linuxserver.io/assets/icon.svg
+          description: Linux Server
+    - YouTubeDL:
+        - abbr: YTDL
+          href: "{{HOMEPAGE_VAR_YTDL_URL}}"
+          icon: youtubedl.svg
+          description: Downloader    
+    - Simple Login:
+        - abbr: SL
+          icon: simplelogin.svg
+          href: https://app.simplelogin.io
+          description: Email Alias
+    - Mouse Sensitivity:
+        - abbr: MS
+          icon: logitech-gaming.svg
+          href: https://www.mouse-sensitivity.com
+          description: Sensitivity Conversion Tool
+    - Amazon:
+        - abbr: AMZ
+          icon: amazon.svg
+          href: https://www.amazon.com
+          description: Online Shopping Monopoly
+    
+
+- Quick-Access:    
+    - Homepage:
+        - abbr: HPage
+          icon: homepage.png
+          href: https://gethomepage.dev/main/
+          description: Homepage Documentation
+    - Nextcloud:
+        - abbr: NXC
+          icon: nextcloud.svghttps://nextcloud.com/athome/
+          description: Cloud and Collaboration
+    - ChatGPT:
+        - abbr: GPT
+          icon: chatgpt.svg
+          href: https://chat.openai.com/
+          description: Chat Bot
+   - LXC Scripts:
+        - abbr: LS
+          icon: github.svg
+          href: https://helper-scripts.com/scripts
+          description: Proxmox VE Helper Scripts
+    - Dashboard Icons:
+        - abbr: DI
+          icon: github.svg
+          href: https://github.com/walkxcode/dashboard-icons
+          description: Icon Repository
