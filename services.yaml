@@ -1,3 +1,4 @@
+---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
@@ -16,35 +17,108 @@
         icon: proxmox.svg
         href: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
         description: simbapve
-        siteMonitor: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
-        widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
-            username:  "{{HOMEPAGE_VAR_SIMBAPVE_USER}}"
-            password:  "{{HOMEPAGE_VAR_SIMBAPVE_API_KEY}}"
-            node: simba
+        # siteMonitor: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        # widget:
+        #     type: proxmox
+        #     url: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        #     username:  "{{HOMEPAGE_VAR_SIMBAPVE_USER}}"
+        #     password:  "{{HOMEPAGE_VAR_SIMBAPVE_API_KEY}}"
+        #     node: simba
+    - Proxmox (Simba):
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        description: simbapve
+        # siteMonitor: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        # widget:
+        #     type: proxmox
+        #     url: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        #     username:  "{{HOMEPAGE_VAR_SIMBAPVE_USER}}"
+        #     password:  "{{HOMEPAGE_VAR_SIMBAPVE_API_KEY}}"
+        #     node: simba
+    - Proxmox (Simba):
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        description: simbapve
+        # siteMonitor: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        # widget:
+        #     type: proxmox
+        #     url: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        #     username:  "{{HOMEPAGE_VAR_SIMBAPVE_USER}}"
+        #     password:  "{{HOMEPAGE_VAR_SIMBAPVE_API_KEY}}"
+        #     node: simba
+    - Proxmox (Simba):
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        description: simbapve
+        # siteMonitor: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        # widget:
+        #     type: proxmox
+        #     url: "{{HOMEPAGE_VAR_SIMBAPVE_URL}}"
+        #     username:  "{{HOMEPAGE_VAR_SIMBAPVE_USER}}"
+        #     password:  "{{HOMEPAGE_VAR_SIMBAPVE_API_KEY}}"
+        #     node: simba
 - Containers:
     - Portainer (Quantum):
         icon: portainer.svg
         href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
         description: Docker container management
         server: Quantum
-        widget:
-            type: portainer
-            url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
-            env: 2
-            key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}" 
+        # widget:
+        #     type: portainer
+        #     url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        #     env: 2
+        #     key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}" 
+    - Portainer (Quantum):
+        icon: portainer.svg
+        href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        description: Docker container management
+        server: Quantum
+        # widget:
+        #     type: portainer
+        #     url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        #     env: 2
+        #     key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
+    - Portainer (Quantum):
+        icon: portainer.svg
+        href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        description: Docker container management
+        server: Quantum
+        # widget:
+        #     type: portainer
+        #     url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        #     env: 2
+        #     key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
+    - Portainer (Quantum):
+        icon: portainer.svg
+        href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        description: Docker container management
+        server: Quantum
+        # widget:
+        #     type: portainer
+        #     url: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        #     env: 2
+        #     key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
 - DNS:
     - Pi-Hole:
         icon: pi-hole.svg
         href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
         description: nestor
-        siteMonitor: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
-        widget:
-            type: pihole
-            url: "{{HOMEPAGE_VAR_PIHOLE_API}}"
-            version: 6 # required if running v6 or higher, defaults to 5
-            key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"  
+        # siteMonitor: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+        # widget:
+        #     type: pihole
+        #     url: "{{HOMEPAGE_VAR_PIHOLE_API}}"
+        #     version: 6 # required if running v6 or higher, defaults to 5
+        #     key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"  
+    - Pi-Hole:
+        icon: pi-hole.svg
+        href: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+        description: nestor
+        # siteMonitor: "{{HOMEPAGE_VAR_PIHOLE_URL}}"
+        # widget:
+        #     type: pihole
+        #     url: "{{HOMEPAGE_VAR_PIHOLE_API}}"
+        #     version: 6 # required if running v6 or higher, defaults to 5
+        #     key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}" 
             
 - Authentication & Notifications:
     - Vaultwarden:
