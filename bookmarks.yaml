@@ -1,5 +1,6 @@
+---
 # For configuration options and examples, please see:
-# https://gethomepage.dev/configs/bookmarks/
+# https://gethomepage.dev/configs/bookmarks
 
 - Quick-Links:
     - LinuxServer:
@@ -12,11 +13,6 @@
           href: "{{HOMEPAGE_VAR_YTDL_URL}}"
           icon: youtubedl.svg
           description: Downloader    
-    - Simple Login:
-        - abbr: SL
-          icon: simplelogin.svg
-          href: https://app.simplelogin.io
-          description: Email Alias
     - Mouse Sensitivity:
         - abbr: MS
           icon: logitech-gaming.svg
@@ -26,7 +22,7 @@
         - abbr: AMZ
           icon: amazon.svg
           href: https://www.amazon.com
-          description: Online Shopping Monopoly
+          description: Online Shopping
     
 
 - Quick-Access:    
@@ -37,14 +33,15 @@
           description: Homepage Documentation
     - Nextcloud:
         - abbr: NXC
-          icon: nextcloud.svghttps://nextcloud.com/athome/
-          description: Cloud and Collaboration
+          icon: nextcloud.svg
+          href: https://nextcloud.com/athome/
+          description: Cloud and Collaboration   
     - ChatGPT:
         - abbr: GPT
           icon: chatgpt.svg
           href: https://chat.openai.com/
-          description: Chat Bot
-   - LXC Scripts:
+          description: AI
+    - LXC Scripts:
         - abbr: LS
           icon: github.svg
           href: https://helper-scripts.com/scripts
@@ -54,3 +51,20 @@
           icon: github.svg
           href: https://github.com/walkxcode/dashboard-icons
           description: Icon Repository
+
+
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+
+- Social:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
